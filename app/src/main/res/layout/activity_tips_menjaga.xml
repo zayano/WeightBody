@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="com.example.zayano.bbi.TipsMenjaga">
+
+<LinearLayout
+    android:id="@+id/activity_tips_menjaga"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="CARA MENJAGA BERAT BADAN IDEAL"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="1. Cek Berat Badan Secara Teratur"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="2. Istirahat yang cukup"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="3. Menjaga pola makan yang sehat"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="4. Mengkonsumsi Buah dan Sayur"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="5. Rajin Berolah Raga"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="6. Atur Porsi Makan"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="7. Konsumsi air putih"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
+</ScrollView>

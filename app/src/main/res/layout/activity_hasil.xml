@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zayano.bbi.hasil">
+
+<LinearLayout
+    android:id="@+id/activity_hasil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFF">
+
+    <TextView
+        android:text="BERAT BADAN IDEAL ANDA"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView14"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:text="NAMA ANDA :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="JENIS KELAMIN  :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:text="kelamin"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="TINGGI BADAN  :"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView17"
+        />
+
+    <TextView
+        android:text="BBI ANDA :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView13"
+        />
+
+
+    <TextView
+        android:text="berat"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/kemenkes_baru"
+        android:id="@+id/imageView2" />
+
+</LinearLayout>>
+    </ScrollView>

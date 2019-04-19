@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BBI</string>
+    <string name="judul_spinner_kelamin">Pilih Jenis Kelamin</string>
+    <string-array name="android_layout_arrays">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+</resources>
